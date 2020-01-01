@@ -1,5 +1,5 @@
 .App {
-	margin: 5px
+	margin: auto;
 }
 
 .step {
@@ -22,4 +22,9 @@
 	img{
 		width: 300px;
 	}
+}
+
+.card-container {
+	display:flex;
+	flex-wrap: wrap;
 }
