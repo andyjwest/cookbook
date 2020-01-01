@@ -1,0 +1,13 @@
+.recipe-card {
+  :first-child{
+    img{
+      width: 400px;
+      height: 300px;
+      overflow: hidden;
+      transition: transform .5s ease;
+      &:hover{
+        transform: scale(1.2);
+      }
+    }
+  }
+}
