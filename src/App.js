@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import recipes from './recipes';
-import Recipe from './Recipe';
+import Recipe from './recipe/Recipe';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,7 +9,7 @@ import {
   Link,
 } from 'react-router-dom';
 import RecipeCard from './recipe-card/RecipeCard';
-import RecipeContainer from './RecipeContainer';
+import RecipeContainer from './recipe/RecipeContainer';
 
 function App() {
   return (

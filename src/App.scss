@@ -1,27 +1,6 @@
 .App {
-	margin: auto;
-}
-
-.step {
-	display: flex;
 	max-width: 1000px;
-	//border: black solid 1px;
-	padding: 10px;
-
-	div:first-child {
-		max-width: 200px;
-	}
-
-	.madeInStep {
-		color: slategrey;
-		font-size:x-small;
-	}
-}
-
-.recipe {
-	img{
-		width: 300px;
-	}
+	margin: auto;
 }
 
 .card-container {

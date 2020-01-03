@@ -15,12 +15,3 @@ export default function RecipeCard({title, source, yields, steps, serving, id, t
       </div>
   );
 }
-
-function Ingredient({name, amount, madeInStep}) {
-  console.log(name);
-  return (
-      <div>{!!amount &&
-      `${amount.value} ${amount.units} `}{name}{!!madeInStep &&
-      <sup>{madeInStep}</sup>}</div>
-  );
-}

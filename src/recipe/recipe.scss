@@ -1,0 +1,33 @@
+.recipe {
+  margin: 10px;
+  width: 100%;
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  > div:first-of-type {
+    display: flex;
+
+    > div {
+      > div {
+
+      }
+
+      margin: auto;
+      padding: 5px;
+    }
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-row-gap: 20px;
+
+  }
+
+  img {
+    width: 600px;
+    height: 450px;
+  }
+}
