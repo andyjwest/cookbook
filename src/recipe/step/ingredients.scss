@@ -1,0 +1,10 @@
+.ingredients {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-row-gap: 5px;
+
+  .madeInStep {
+    color: slategrey;
+    font-size: x-small;
+  }
+}

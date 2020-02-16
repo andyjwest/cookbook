@@ -14,6 +14,7 @@ export default function Amount({value, units}){
     pounds: 'lb',
     ounces: 'oz',
     grams: 'g',
+    cups: 'c',
     count: ''
   }
 

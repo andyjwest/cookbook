@@ -1,5 +1,5 @@
 import React from 'react';
-import Step from './Step';
+import Step from './step/Step';
 import './recipe.scss';
 
 export default function Recipe({title, source, yields, steps, serving, id, titleImage, description}) {
@@ -20,7 +20,7 @@ export default function Recipe({title, source, yields, steps, serving, id, title
             <div>{yields}</div>
           </div>
         </div>
-        <div className='steps'>{steps.map((step, index) => <Step key={index}{...step}/>)}</div>
+        <div className='steps'>{steps.map((step, index) => <Step key={index} {...step}/>)}</div>
       </div>
   );
 }
