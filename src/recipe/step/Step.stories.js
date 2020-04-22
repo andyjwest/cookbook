@@ -1,6 +1,5 @@
 import React from 'react'
 import Step from './Step'
-import Ingredients from './Ingredients'
 
 export default {
   title: 'Step',

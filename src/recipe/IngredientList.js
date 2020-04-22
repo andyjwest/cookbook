@@ -1,9 +1,9 @@
 import React from 'react';
 import * as PropTypes from 'prop-types'
-import './ingredients.scss'
-import Amount from '../../Amount';
+import './ingredient-list.scss'
+import Amount from '../Amount';
 
-export default function Ingredients({ingredients}) {
+export default function IngredientList({ingredients}) {
   return (
       <div className='ingredients'>{!!ingredients && ingredients.map(({amount, name, madeInStep}) =>
           <>
@@ -14,7 +14,7 @@ export default function Ingredients({ingredients}) {
   );
 }
 
-Ingredients.propTypes = {
+IngredientList.propTypes = {
   ingredients: PropTypes.arrayOf(PropTypes.shape({
     amount:PropTypes.shape({
       value: PropTypes.number,

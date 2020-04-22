@@ -7,7 +7,7 @@ export default function RecipeCard({title, source, yields, steps, serving, id, t
   return (
       <div className='recipe-card'>
         <div>
-          <Link to={`${id}`}>
+          <Link to={`/recipes/${id}`}>
             <img src={titleImage} alt={title}/>
           </Link>
         </div>

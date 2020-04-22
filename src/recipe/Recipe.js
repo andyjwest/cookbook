@@ -1,6 +1,7 @@
 import React from 'react';
 import Step from './step/Step';
 import './recipe.scss';
+import IngredientList from './IngredientList'
 
 export default function Recipe({title, source, yields, steps, serving, id, titleImage, description}) {
   //Fixme Combine the same things (maybe based on config)
@@ -15,7 +16,7 @@ export default function Recipe({title, source, yields, steps, serving, id, title
           <img src={titleImage} alt={title}/>
           <div>
             <h2>Ingredients</h2>
-            <div>{mainIngredients.map(it => <Ingredient {...it}/>)}</div>
+            <IngredientList ingredients={mainIngredients} />
             <h2>Yields</h2>
             <div>{yields}</div>
           </div>
