@@ -7,7 +7,7 @@ export default function RecipeList(){
 
   useEffect(()=>{
 
-    let url = new URL('http://localhost:3001/recipes')
+    let url = new URL('http://localhost:8080/recipes')
     search && url.searchParams.append('search', search);
 
     fetch(url)
