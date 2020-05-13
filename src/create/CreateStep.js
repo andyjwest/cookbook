@@ -1,11 +1,12 @@
 import React from 'react'
 import LabeledInput from './LabeledInput'
+import {StepShape} from "../PropTypeShapes";
 
-export default function CreateStep(props){
+export default function CreateStep(props) {
 
+    return <div>
 
-
-  return <div>
-
-  </div>
+    </div>
 }
+
+CreateStep.propTypes = StepShape

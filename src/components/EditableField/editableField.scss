@@ -1,0 +1,11 @@
+div.editable-field{
+  width: 100%;
+  display: block;
+  :first-child div {
+    display: block;
+    float: left;
+  }
+  label {
+    float:right;
+  }
+}

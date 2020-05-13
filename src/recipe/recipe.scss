@@ -1,24 +1,7 @@
 .recipe {
-  margin: 10px;
-  width: 100%;
-
-  h1, h2 {
-    color: whitesmoke;
-    background-color: #575757;
-    text-align: center;
-  }
-
-  > div:first-of-type {
-    display: flex;
-
-    > div {
-      margin: auto;
-      padding: 5px;
-    }
-  }
-
-  img {
-    width: 600px;
-    height: 450px;
+  height: 100%;
+  .content {
+    margin-left: 180px;
+    padding: 1px 16px;
   }
 }

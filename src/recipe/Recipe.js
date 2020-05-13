@@ -1,35 +1,36 @@
-import React from 'react';
-import Step from './step/Step';
+import React, {useState} from 'react';
 import './recipe.scss';
-import IngredientList from './IngredientList'
+import Sidebar from "./sidebar/Sidebar";
+import {Route, Switch, useRouteMatch, useParams} from "react-router-dom";
+import Title from "./title/Title";
+import Step from "./step/Step";
+import StepContainer from "./step/StepContainer";
 
 export default function Recipe({title, source, yields, steps, serving, id, titleImage, description}) {
-  //Fixme Combine the same things (maybe based on config)
-  const mainIngredients = steps.flatMap(step => step.ingredients)
-      .filter(it => typeof it !== 'undefined' && typeof it.madeInStep ===
-          'undefined');
+    // let {path, url} = useRouteMatch()
+    //Fixme Combine the same things (maybe based on config)
+    const mainIngredients = steps.flatMap(step => step.ingredients)
+        .filter(it => typeof it !== 'undefined' && typeof it.madeInStep ===
+            'undefined');
 
-  return (
-      <div className='recipe'>
-        <h1>{title}</h1>
-        <div>
-          <img src={titleImage} alt={title}/>
-          <div>
-            <h2>Ingredients</h2>
-            <IngredientList ingredients={mainIngredients} />
-            <h2>Yields</h2>
-            <div>{yields}</div>
-          </div>
+    // console.log(path)
+    // console.log(url)
+
+    return (
+        <div className='recipe'>
+            <Sidebar titleImage={titleImage} description={description} steps={steps}/>
+            <div className='content'>
+                <Title title={title} />
+                {/*<Switch>*/}
+                {/*    <Route exact path={path}>*/}
+                {/*        A list of ingredients*/}
+                {/*    </Route>*/}
+                {/*    <Route path={`${path}/steps/:index`}>*/}
+                {/*        <div>test</div>*/}
+                {/*        <StepContainer steps={steps}/>*/}
+                {/*    </Route>*/}
+                {/*</Switch>*/}
+            </div>
         </div>
-        <div className='steps'>{steps.map((step, index) => <Step key={index} {...step}/>)}</div>
-      </div>
-  );
-}
-
-function Ingredient({name, amount, madeInStep}) {
-  return (
-      <div>
-        <div>{!!amount && `${amount.value} ${amount.units}`}</div>
-        <div>{name}{!!madeInStep && <sup>{madeInStep}</sup>}</div>
-      </div>);
+    );
 }

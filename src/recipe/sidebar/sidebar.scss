@@ -1,0 +1,18 @@
+@import './my-colors';
+
+.sidebar {
+  width: 180px;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #f1f1f1;
+  position: fixed;
+  color: $pale-silver;
+  .step-container{
+    overflow-y: scroll;
+  }
+}
+
+a.active {
+  background-color: $steel-teal;
+  color: $white;
+}

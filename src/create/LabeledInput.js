@@ -1,8 +1,8 @@
 import React from 'react'
+import LabeledField from "./LabeledField";
 
 export default function LabeledInput(props){
-  return <div>
-    <label>{props.label}</label>
+  return <LabeledField label={props.label}>
     <input type={props.inputType} onChange={e => props.changeHandler(e.target.value)} value={props.value}/>
-  </div>
+  </LabeledField>
 }
