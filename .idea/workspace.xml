@@ -1,58 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3a9cc447-0f41-47df-a12d-7f41e5d0876d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.dev" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.storybook/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_my-colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/book.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/edit.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/thermometer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PropTypeShapes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EditableField/EditableField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EditableField/EditableField.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/EditableField/editableField.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ToggleSlider/ToggleSlider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ToggleSlider/ToggleSlider.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ToggleSlider/toggle-slider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/CreateRecipe.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/LabeledField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/LabledInput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/Edit/EditTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/Edit/EditTitle.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/sidebar/Sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/sidebar/Sidebar.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/sidebar/SidebarStep.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/sidebar/Step.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/sidebar/sidebar-step.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/sidebar/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/step/StepContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/title/Title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/title/Title.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/title/title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recipe/sidebar/Ingredients.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_my-colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_my-colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/book.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/edit.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/thermometer.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecipeList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecipeList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/CreateRecipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/CreateRecipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/CreateStep.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/CreateStep.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/LabeledInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/LabeledInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Amount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Amount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/IngredientList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/IngredientList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/Recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/Recipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/Recipe.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/Recipe.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/recipe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/recipe.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/sidebar/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/Step.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/sidebar/Step.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/sidebar/sidebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/step/Ingredients.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/step/Ingredients.stories.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/step/Step.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/step/Step.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/step/StepContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/step/StepContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/step/ingredients.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/step/step.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/step/step.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/title/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/title/Title.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,26 +81,24 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\My Documents\Insight\cookbook\src\recipe\sidebar" />
-      <recent name="F:\My Documents\Insight\cookbook\assets" />
-      <recent name="F:\My Documents\Insight\cookbook\src\recipe\title" />
-      <recent name="F:\My Documents\Insight\cookbook\src\recipe\Edit" />
-      <recent name="F:\My Documents\Insight\cookbook\src\components\ToggleSlider" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/recipe/step" />
+      <recent name="$PROJECT_DIR$/src/recipe" />
+      <recent name="$PROJECT_DIR$/src/recipe-card" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\My Documents\Insight\cookbook" />
-      <recent name="F:\My Documents\Insight\cookbook\src\recipe\sidebar" />
-      <recent name="F:\My Documents\Insight\cookbook\src\recipe" />
-      <recent name="F:\My Documents\Insight\cookbook\src\recipe\title" />
-      <recent name="F:\My Documents\Insight\cookbook\src\components\ToggleSlider" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/create" />
+      <recent name="$PROJECT_DIR$/src/recipe" />
+      <recent name="$PROJECT_DIR$/src/recipe/step" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Debug Application">
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -118,35 +109,10 @@
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="storybook" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="storybook" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="svgr" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="svgr" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.Debug Application" />
-      <item itemvalue="npm.npm start" />
-      <item itemvalue="npm.storybook" />
-      <item itemvalue="npm.svgr" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -172,12 +138,10 @@
       <workItem from="1587474552149" duration="1727000" />
       <workItem from="1587565497729" duration="13906000" />
       <workItem from="1587743896798" duration="771000" />
-      <workItem from="1588596316188" duration="12908000" />
-      <workItem from="1588681331356" duration="22019000" />
-      <workItem from="1588772153625" duration="5497000" />
-      <workItem from="1588964136723" duration="3458000" />
-      <workItem from="1589202593794" duration="30345000" />
-      <workItem from="1589397135908" duration="2633000" />
+      <workItem from="1589381507700" duration="630000" />
+      <workItem from="1589386615069" duration="986000" />
+      <workItem from="1589394059632" duration="4453000" />
+      <workItem from="1589484961661" duration="8486000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDE">
       <created>1576870722954</created>
@@ -227,6 +191,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding IDE" />
     <MESSAGE value="initial commit" />
@@ -249,15 +225,18 @@
       <screen x="1050" y="0" width="2560" height="1440" />
     </state>
     <state x="1955" y="377" width="800" height="719" key="#Plugins/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587566111781" />
-    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589397744753">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="2675" y="539" width="595" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589468373893">
+      <screen x="1680" y="0" width="2560" height="1440" />
     </state>
-    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589397744753" />
-    <state x="734" y="360" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020@0.0.2560.1410" timestamp="1588616141646" />
-    <state x="1010" y="452" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589376280111">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="2675" y="539" width="595" height="403" key="#com.intellij.fileTypes.FileTypeChooser/1680.0.2560.1440/4240.0.1680.1050/5920.26.1280.1024/0.27.1680.1023@1680.0.2560.1440" timestamp="1589468373893" />
+    <state x="2716" y="482" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589552263743">
+      <screen x="1680" y="0" width="2560" height="1440" />
     </state>
-    <state x="1010" y="452" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1410/2560.0.1680.1020/-1680.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589376280111" />
+    <state x="2716" y="482" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1680.0.2560.1440/4240.0.1680.1050/5920.0.1024.768/0.27.1680.1023@1680.0.2560.1440" timestamp="1589552263743" />
+    <state x="2118" y="224" width="666" height="638" key="#npm_start" timestamp="1589468324391">
+      <screen x="1680" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2118" y="224" width="666" height="638" key="#npm_start/1680.0.2560.1440/4240.0.1680.1050/5920.26.1280.1024/0.27.1680.1023@1680.0.2560.1440" timestamp="1589468324391" />
     <state x="1925" y="330" width="912" height="919" key="CommitChangelistDialog2" timestamp="1587584351784">
       <screen x="1050" y="0" width="2560" height="1440" />
     </state>
@@ -267,42 +246,38 @@
       <screen x="60" y="27" width="2500" height="1413" />
     </state>
     <state x="1093" y="491" width="424" height="491" key="FileChooserDialogImpl/60.27.2500.1413/2560.0.1680.1050@60.27.2500.1413" timestamp="1585059017661" />
-    <state width="2517" height="402" key="GridCell.Tab.0.bottom" timestamp="1589398356681">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="2468" height="258" key="GridCell.Tab.0.bottom" timestamp="1589560196449">
+      <screen x="46" y="27" width="1634" height="1023" />
     </state>
-    <state width="2517" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1024.738@0.0.2560.1410" timestamp="1588718193723" />
-    <state width="2517" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589398356681" />
-    <state width="2517" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020@0.0.2560.1410" timestamp="1588772081589" />
-    <state width="2517" height="402" key="GridCell.Tab.0.bottom/0.0.2560.1410/2560.0.1680.1020/-1680.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589376286017" />
     <state width="2454" height="394" key="GridCell.Tab.0.bottom/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587647715853" />
     <state width="2454" height="394" key="GridCell.Tab.0.bottom/1680.0.2560.1440/0.27.1680.1023@1680.0.2560.1440" timestamp="1581868975668" />
-    <state width="2517" height="402" key="GridCell.Tab.0.center" timestamp="1589398356681">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="2468" height="258" key="GridCell.Tab.0.bottom/1680.0.2560.1440/4240.0.1680.1050/5920.0.1024.768/46.27.1634.1023@46.27.1634.1023" timestamp="1589560196449" />
+    <state width="2468" height="258" key="GridCell.Tab.0.bottom/1680.0.2560.1440/4240.0.1680.1050/5920.26.1280.1024/0.27.1680.1023@1680.0.2560.1440" timestamp="1589468331607" />
+    <state width="2468" height="258" key="GridCell.Tab.0.center" timestamp="1589560196449">
+      <screen x="46" y="27" width="1634" height="1023" />
     </state>
-    <state width="2517" height="402" key="GridCell.Tab.0.center/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1024.738@0.0.2560.1410" timestamp="1588718193723" />
-    <state width="2517" height="402" key="GridCell.Tab.0.center/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589398356681" />
-    <state width="2517" height="402" key="GridCell.Tab.0.center/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020@0.0.2560.1410" timestamp="1588772081589" />
-    <state width="2517" height="402" key="GridCell.Tab.0.center/0.0.2560.1410/2560.0.1680.1020/-1680.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589376286017" />
     <state width="2454" height="394" key="GridCell.Tab.0.center/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587647715853" />
     <state width="2454" height="394" key="GridCell.Tab.0.center/1680.0.2560.1440/0.27.1680.1023@1680.0.2560.1440" timestamp="1581868975667" />
-    <state width="2517" height="402" key="GridCell.Tab.0.left" timestamp="1589398356681">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="2468" height="258" key="GridCell.Tab.0.center/1680.0.2560.1440/4240.0.1680.1050/5920.0.1024.768/46.27.1634.1023@46.27.1634.1023" timestamp="1589560196449" />
+    <state width="2468" height="258" key="GridCell.Tab.0.center/1680.0.2560.1440/4240.0.1680.1050/5920.26.1280.1024/0.27.1680.1023@1680.0.2560.1440" timestamp="1589468331607" />
+    <state width="2468" height="258" key="GridCell.Tab.0.left" timestamp="1589560196448">
+      <screen x="46" y="27" width="1634" height="1023" />
     </state>
-    <state width="2517" height="402" key="GridCell.Tab.0.left/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1024.738@0.0.2560.1410" timestamp="1588718193722" />
-    <state width="2517" height="402" key="GridCell.Tab.0.left/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589398356681" />
-    <state width="2517" height="402" key="GridCell.Tab.0.left/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020@0.0.2560.1410" timestamp="1588772081589" />
-    <state width="2517" height="402" key="GridCell.Tab.0.left/0.0.2560.1410/2560.0.1680.1020/-1680.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589376286017" />
     <state width="2454" height="394" key="GridCell.Tab.0.left/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587647715853" />
     <state width="2454" height="394" key="GridCell.Tab.0.left/1680.0.2560.1440/0.27.1680.1023@1680.0.2560.1440" timestamp="1581868975667" />
-    <state width="2517" height="402" key="GridCell.Tab.0.right" timestamp="1589398356681">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="2468" height="258" key="GridCell.Tab.0.left/1680.0.2560.1440/4240.0.1680.1050/5920.0.1024.768/46.27.1634.1023@46.27.1634.1023" timestamp="1589560196448" />
+    <state width="2468" height="258" key="GridCell.Tab.0.left/1680.0.2560.1440/4240.0.1680.1050/5920.26.1280.1024/0.27.1680.1023@1680.0.2560.1440" timestamp="1589468331606" />
+    <state width="2468" height="258" key="GridCell.Tab.0.right" timestamp="1589560196449">
+      <screen x="46" y="27" width="1634" height="1023" />
     </state>
-    <state width="2517" height="402" key="GridCell.Tab.0.right/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1024.738@0.0.2560.1410" timestamp="1588718193723" />
-    <state width="2517" height="402" key="GridCell.Tab.0.right/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589398356681" />
-    <state width="2517" height="402" key="GridCell.Tab.0.right/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020@0.0.2560.1410" timestamp="1588772081589" />
-    <state width="2517" height="402" key="GridCell.Tab.0.right/0.0.2560.1410/2560.0.1680.1020/-1680.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589376286017" />
     <state width="2454" height="394" key="GridCell.Tab.0.right/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587647715853" />
     <state width="2454" height="394" key="GridCell.Tab.0.right/1680.0.2560.1440/0.27.1680.1023@1680.0.2560.1440" timestamp="1581868975668" />
+    <state width="2468" height="258" key="GridCell.Tab.0.right/1680.0.2560.1440/4240.0.1680.1050/5920.0.1024.768/46.27.1634.1023@46.27.1634.1023" timestamp="1589560196449" />
+    <state width="2468" height="258" key="GridCell.Tab.0.right/1680.0.2560.1440/4240.0.1680.1050/5920.26.1280.1024/0.27.1680.1023@1680.0.2560.1440" timestamp="1589468331607" />
+    <state x="1931" y="130" width="2048" height="1189" key="MergeDialog" timestamp="1589389123960">
+      <screen x="1680" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1931" y="130" width="2048" height="1189" key="MergeDialog/1680.0.2560.1440/4240.0.1680.1050/5920.26.1280.1024/0.27.1680.1023@1680.0.2560.1440" timestamp="1589389123960" />
     <state x="2479" y="368" width="1342" height="737" key="SettingsEditor" timestamp="1581792819584">
       <screen x="1680" y="0" width="2560" height="1440" />
     </state>
@@ -312,40 +287,23 @@
     </state>
     <state x="1955" y="469" key="Vcs.Push.Dialog.v2/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587584354134" />
     <state x="2585" y="469" width="800" height="535" key="Vcs.Push.Dialog.v2/1680.0.2560.1440/0.27.1680.1023@1680.0.2560.1440" timestamp="1581868995496" />
-    <state x="2128" y="653" width="454" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587648574214">
-      <screen x="1050" y="0" width="2560" height="1440" />
+    <state x="2758" y="653" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589394202169">
+      <screen x="1680" y="0" width="2560" height="1440" />
     </state>
     <state x="2128" y="653" width="454" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587648574214" />
     <state x="2758" y="653" width="454" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.2560.1440/0.27.1680.1023@1680.0.2560.1440" timestamp="1582031864893" />
-    <state x="1001" y="464" width="618" height="534" key="find.popup" timestamp="1589398356586">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="2758" y="653" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1680.0.2560.1440/4240.0.1680.1050/5920.26.1280.1024/0.27.1680.1023@1680.0.2560.1440" timestamp="1589394202169" />
+    <state x="2051" y="474" width="618" height="518" key="find.popup" timestamp="1587566101126">
+      <screen x="1050" y="0" width="2560" height="1440" />
     </state>
-    <state x="1001" y="464" width="618" height="534" key="find.popup/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589398356586" />
     <state x="2051" y="474" width="618" height="518" key="find.popup/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587566101126" />
-    <state x="619" y="328" width="1372" height="803" key="new project wizard" timestamp="1589216686455">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="1669" y="335" width="1372" height="803" key="new project wizard" timestamp="1587566155198">
+      <screen x="1050" y="0" width="2560" height="1440" />
     </state>
-    <state x="619" y="328" key="new project wizard/0.0.2560.1410/2560.0.1680.1020/-1680.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589216686455" />
     <state x="1669" y="335" width="1372" height="803" key="new project wizard/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587566155198" />
-    <state x="936" y="333" key="run.anything.popup" timestamp="1589207925532">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="2023" y="349" width="672" height="678" key="search.everywhere.popup" timestamp="1587578255457">
+      <screen x="1050" y="0" width="2560" height="1440" />
     </state>
-    <state x="936" y="333" key="run.anything.popup/0.0.2560.1410/2560.0.1680.1020/-1680.0.1680.1020/4240.0.1280.994@0.0.2560.1410" timestamp="1589207925532" />
-    <state x="973" y="342" width="672" height="664" key="search.everywhere.popup" timestamp="1588605013779">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="973" y="342" width="672" height="664" key="search.everywhere.popup/0.0.2560.1410/-1680.0.1680.1020/2560.0.1680.1020@0.0.2560.1410" timestamp="1588605013779" />
     <state x="2023" y="349" width="672" height="678" key="search.everywhere.popup/1050.0.2560.1440/0.168.1050.1680/3610.168.1680.1050@1050.0.2560.1440" timestamp="1587578255457" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/recipe/sidebar/Sidebar.stories.js</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -17,7 +17,6 @@ export default function Title({title, titleImage}) {
 
     return <nav className='title'>
         <h1>{title}</h1>
-        <div/>
     </nav>
 }
 

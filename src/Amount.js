@@ -1,7 +1,7 @@
 import React from 'react';
 import * as PropTypes from 'prop-types'
 
-export default function Amount({value, units}){
+export default function Amount({value, units, longform}){
   const unitAbbreviations = {
     teaspoons: 'tsp',
     tablespoons: 'tbsp',
@@ -18,12 +18,14 @@ export default function Amount({value, units}){
     count: ''
   }
 
-  return (
-      <div>{value} {!!unitAbbreviations[units] ? unitAbbreviations[units] : units}</div>
-  )
+  if(longform){
+    return <div>{value} {units}</div>
+  }
+  return <div>{value} {typeof unitAbbreviations[units] !== 'undefined' ? unitAbbreviations[units] : units}</div>
 }
 
 Amount.propTypes ={
-  value: PropTypes.number,
-  units: PropTypes.string
+  value: PropTypes.number.isRequired,
+  units: PropTypes.string,
+  longform: PropTypes.bool
 }

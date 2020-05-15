@@ -1,27 +1,42 @@
 import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import Recipe from "./Recipe";
+import {RecipeShape} from "../PropTypeShapes";
+import {shape} from "prop-types";
 
 export default function RecipeContainer() {
-    let {recipeId} = useParams();
-    const [recipe, setRecipe] = useState()
+    const {recipeId} = useParams()
+
+    const [recipe, setRecipe] = useState({})
+    const [steps, setSteps] = useState([])
+
     useEffect(() => {
-
-        let url = new URL(`${process.env.REACT_APP_API_URL}/recipes/${recipeId}`)
-
-        fetch(url)
+        fetch(`${process.env.REACT_APP_API_URL}/recipes/${recipeId}`)
             .then(r => r.json())
             .then((result => {
                 setRecipe(result)
             }), error => {
                 console.log(error)
             })
+        setRecipe({})
+    }, [])
+
+    useEffect(() => {
+        fetch(`${process.env.REACT_APP_API_URL}/recipes/${recipeId}/steps`)
+            .then(r => r.json())
+            .then((result => {
+                setSteps(result)
+            }), error => {
+                console.log(error)
+            })
         return setRecipe({})
-    }, [recipeId])
+    }, [])
 
     return <div>
-        {!recipe ? <div>Loading Coming</div> : <div>
-            <Recipe {...recipe}/>
-        </div>}
+        {Object.keys(recipe).length > 0  && steps.length > 0 ? <Recipe {...recipe} steps={steps}/> : <div>Loading Coming</div>}
     </div>
+}
+
+RecipeContainer.propTypes = {
+    recipe: shape(RecipeShape)
 }

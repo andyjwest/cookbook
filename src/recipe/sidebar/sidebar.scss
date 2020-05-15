@@ -2,13 +2,11 @@
 
 .sidebar {
   width: 180px;
-  overflow: hidden;
-  white-space: nowrap;
-  background-color: #f1f1f1;
+  background-color: $granny-smith;
   position: fixed;
-  color: $pale-silver;
-  .step-container{
-    overflow-y: scroll;
+  color: $onyx;
+  > div {
+    padding: 5px;
   }
 }
 

@@ -5,7 +5,7 @@ import Amount from '../Amount';
 
 export default function IngredientList({ingredients}) {
   return (
-      <div className='ingredients'>{!!ingredients && ingredients.map(({amount, name, madeInStep}) =>
+      <div className='ingredient-list'>{!!ingredients && ingredients.map(({amount, name, madeInStep}) =>
           <>
             <Amount {...amount}/>
             <div>{name}{!!madeInStep && <sup>{madeInStep}</sup>}</div>

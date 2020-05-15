@@ -4,6 +4,5 @@ import Step from "./Step";
 
 export default function StepContainer(props) {
     const {index} = useParams();
-    return <div>{index}</div>
-    // return <Step {...props.steps[index]}/>
+    return <Step {...props.steps[index]}/>
 }
