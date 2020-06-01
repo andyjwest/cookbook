@@ -1,8 +1,7 @@
 import React from 'react'
-import './button.scss'
 
 export default function Button(props){
-    return <a className='button'>
+    return <button className='button' onClick={props.onClick}>
         {props.children}
-    </a>
+    </button>
 }

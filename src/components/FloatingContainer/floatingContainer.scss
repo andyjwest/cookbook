@@ -1,0 +1,17 @@
+div.floating-container{
+
+  &.left {
+    float: left;
+  }
+  &.right {
+    float: right;
+  }
+  &.bottom{
+    bottom:0;
+    position: absolute;
+  }
+}
+
+.float-parent {
+  position: relative;
+}

@@ -1,9 +1,22 @@
-@import './my-colors';
+@import 'my-colors';
 
-nav.title {
+ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   display: flex;
-  background-color: $white;
-  > h1 {
-    padding-left: 10px;
+  justify-content: space-between;
+  > li {
+    margin: 15px;
+    > h1 {
+      font-size: 32px;
+      margin: 0
+    }
   }
+}
+
+@media all and (min-width: 900px) {
+
 }

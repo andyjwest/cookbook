@@ -17,9 +17,9 @@ export const StepOneRoute = ()=> <MemoryRouter initialEntries={['/recipes/key-li
         steps={[
             {
                 'equipment': [
-                    'Oven'
+                    'oven'
                 ],
-                'temperature': 350,
+                'temperature': {'value':350, 'units':'fahrenheit'},
                 'description': 'Preheat the oven to 350 degrees F.'
             },
             {

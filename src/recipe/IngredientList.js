@@ -1,9 +1,10 @@
 import React from 'react';
 import * as PropTypes from 'prop-types'
 import './ingredient-list.scss'
-import Amount from '../Amount';
+import Amount from '../components/Amount/Amount';
 
 export default function IngredientList({ingredients}) {
+  //Fixme Combine the same things (maybe based on config)
   return (
       <div className='ingredient-list'>{!!ingredients && ingredients.map(({amount, name, madeInStep}) =>
           <>

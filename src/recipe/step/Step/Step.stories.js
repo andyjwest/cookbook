@@ -1,5 +1,5 @@
 import React from 'react'
-import Step from './Step'
+import Step from "./Step";
 
 export default {
   title: 'Step',
@@ -45,6 +45,7 @@ export const JustDescription = () => <Step
 
 export const AllTheThings = () => <Step
   equipment={['stand mixer', 'stand mixer whisk']}
+  title='Make Lime Curd'
   ingredients={[
     {
       'name': 'egg yolks',
