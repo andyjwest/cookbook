@@ -10,17 +10,13 @@ export default function Step({title, equipment, temperature, description, ingred
 
     return (
         <div className='step'>
-            {!!ingredients && <TextWithHeader header='Ingredients'>
-                <IngredientList ingredients={ingredients} />
-            </TextWithHeader>}
-            <TextWithHeader header='Description'>{description}</TextWithHeader>
-            {(!!temperature || !!time || !!equipment) && <div>
-                <TextWithHeader header='Equipment'>{equipment}</TextWithHeader>
-                <div>
-                    {!!temperature && <TextWithHeader header='Temp'>{temperature.value}</TextWithHeader>}
-                    {!!time && <TextWithHeader header='Time'>{time.value}</TextWithHeader>}
-                </div>
-            </div>}
+            <div>
+                {!!ingredients && <TextWithHeader header='Ingredients'>
+                    <IngredientList ingredients={ingredients} />
+                </TextWithHeader>}
+                <TextWithHeader header='Description'>{description}</TextWithHeader>
+            </div>
+            {(!!temperature || !!time || !!equipment) && <MetadataBar temperature={temperature} equipment={equipment} time={time}/>}
         </div>
     );
 }
