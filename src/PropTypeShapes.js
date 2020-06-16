@@ -1,44 +1,47 @@
-import * as PropTypes from "prop-types";
+import {string, number, shape, arrayOf, oneOf, oneOfType, bool} from "prop-types";
+
+export const HeatStringTypes = ["High", "Medium-High", "Medium", "Medium-Low", "Low"]
 
 export const IngredientShape = {
-    name: PropTypes.string.isRequired,
-    amount: PropTypes.shape({
-        value: PropTypes.number,
-        units: PropTypes.string
+    name: string.isRequired,
+    amount: shape({
+        value: number,
+        units: string
     }),
-    madeInStep: PropTypes.number
+    madeInStep: number,
+    preparation: string
 }
 
 export const TimeShape = {
-    value: PropTypes.number,
-    lowerBound: PropTypes.number,
-    upperBound: PropTypes.number,
-    units: PropTypes.string.isRequired
+    value: number,
+    lowerBound: number,
+    upperBound: number,
+    units: string.isRequired
 }
 
 export const TemperatureShape = {
-    value: PropTypes.number,
-    lowerBound: PropTypes.number,
-    upperBound: PropTypes.number,
-    units: PropTypes.string.isRequired
-}
+        value: number,
+        lowerBound: number,
+        upperBound: number,
+        units: string.isRequired
+    }
 
 export const StepShape = {
-    equipment: PropTypes.arrayOf(PropTypes.string),
-    temperature: PropTypes.shape(TemperatureShape),
-    title: PropTypes.string,
-    description: PropTypes.string.isRequired,
-    ingredients: PropTypes.arrayOf(PropTypes.shape(IngredientShape)),
-    time: PropTypes.shape(TimeShape),
-    priorStepRequired: PropTypes.bool,
+    equipment: arrayOf(string),
+    temperature: oneOfType([shape(TemperatureShape), oneOf(HeatStringTypes)]),
+    title: string,
+    description: string.isRequired,
+    ingredients: arrayOf(shape(IngredientShape)),
+    time: shape(TimeShape),
+    priorStepRequired: bool,
 }
 
 export const RecipeShape = {
-    title: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired,
-    description: PropTypes.string,
-    source: PropTypes.string,
-    yields: PropTypes.string,
-    steps:  PropTypes.arrayOf(PropTypes.shape(StepShape)),
-    titleImage: PropTypes.string
+    title: string.isRequired,
+    id: string.isRequired,
+    description: string,
+    source: string,
+    yields: string,
+    steps:  arrayOf(shape(StepShape)),
+    titleImage: string
 }
