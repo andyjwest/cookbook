@@ -4,14 +4,15 @@ import Title from "./title/Title";
 import {RecipeShape} from "../PropTypeShapes";
 import Step from "./step/Step/Step";
 import {RecipeWelcomeContentPanel} from "./step/RecipeWelcomeContentPanel/RecipeWelcomeContentPanel";
+import Sidebar from "./sidebar/Sidebar";
 
-export default function Recipe(props) {
+export default function RecipeWizard(props) {
     const {title, source, yields, steps, serving, id} = props
     const [activeStepIndex, setActiveStep] = useState(0)
     const mainIngredients = steps.flatMap(step => step.ingredients)
         .filter(it => typeof it !== 'undefined' && typeof it.madeInStep ===
             'undefined');
-    return (
+    return (<div className='page'>
         <div className='recipe'>
             <Title title={title} stepCount={activeStepIndex} stepTitle={steps[activeStepIndex]}/>
             {activeStepIndex !== 0 && <button onClick={() => setActiveStep(activeStepIndex - 1)}>Prior Step</button>}
@@ -23,7 +24,7 @@ export default function Recipe(props) {
             </div>
             <button onClick={() => setActiveStep(activeStepIndex + 1)}>Next Step</button>
         </div>
-    );
+    </div>);
 }
 
-Recipe.propType = RecipeShape
+RecipeWizard.propType = RecipeShape

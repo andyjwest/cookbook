@@ -1,7 +1,7 @@
 @import "my-colors";
 
 div.recipe {
-
+  justify-content: space-around;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -11,26 +11,13 @@ div.recipe {
   display: flex;
   flex-direction: column;
 
-  > button {
-    width: 100%;
-    border: none;
-    color: $color1;
-    background-color: $color5;
-    padding: 14px;
-    font-size: 20px;
-    cursor: pointer;
-    text-align: center;
-
-    &:disabled {
-      cursor: not-allowed;
-    }
-
-  }
-
   .content {
-
     flex-grow: 1;
     overflow: auto;
     display: flex;
   }
+}
+
+div.description {
+  max-width: 400px;
 }

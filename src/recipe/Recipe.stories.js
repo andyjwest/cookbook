@@ -1,15 +1,15 @@
 import React from 'react'
-import Recipe from './Recipe'
+import RecipeWizard from './RecipeWizard'
 import {MemoryRouter} from "react-router-dom";
 import {RecipeWelcomeContentPanel} from "./step/RecipeWelcomeContentPanel/RecipeWelcomeContentPanel";
 
 export default {
     title: 'Recipe',
-    component: Recipe,
+    component: RecipeWizard,
 }
 
 export const StepOneRoute = ()=> <MemoryRouter initialEntries={['/recipes/key-lime-pie/steps/0']}>
-    <Recipe
+    <RecipeWizard
         title="Key Lime Pie"
         id="key-lime-pie"
         description="Tangy lemons and limes mix makes this pie refreshing and light."
@@ -196,12 +196,12 @@ export const StepOneRoute = ()=> <MemoryRouter initialEntries={['/recipes/key-li
     />
 </MemoryRouter>
 
-export const BeefStroganoff = () => <Recipe
+export const BeefStroganoff = () => <RecipeWizard
 title="Beef Stroganoff"
 id="beef-stroganoff"
 titleImage="https://static01.nyt.com/images/2020/02/16/magazine/16mag-eat/16mag-eat-articleLarge-v2.jpg"
 source="https://cooking.nytimes.com/recipes/1020862-beef-stroganoff"
-description="Our silky-smooth, delicately textured buttermilk panna cotta is an elegant dessert that requires some waiting but hardly any work. We made it even simpler by skipping the traditional step of sprinkling gelatin over cold water to bloom it before dissolving it in hot cream. Instead, we whisked together the gelatin, sugar, and salt and then whisked in cold heavy cream. Dispersed by the sugar and salt, the gelatin granules had plenty of space to absorb water from the cream, which readied the gelatin for heating. Bringing the mixture to 150 degrees ensured that the gelatin fully dissolved and the floral notes of the vanilla bean were thoroughly infused into the cream. To prevent curdling, we let the mixture cool to 110 degrees before adding the buttermilk. Finally, we portioned the panna cotta and refrigerated it until it was time to serve. Its tangy richness is the perfect foil for a drizzle of honey and a few ripe summer berries."
+description="Forget what you think you remember about this putatively Russian dish, which saw its zenith in American kitchens during the 1950s and its nadir in school cafeterias two decades later. Beef stroganoff makes for an outstanding dinner: a vat of tender sautéed meat in a silken gravy studded with caramelized mushrooms, alongside a huge tangle of buttered noodles. Be careful when adding the cream at the end: Sour cream easily curdles in the heat, while crème fraîche or heavy cream offer smoother results."
 steps={[
         {
             "title": "Boil Water",
@@ -271,7 +271,7 @@ steps={[
             "name": "Canola Oil",
             "amount": {
                 "value": 1,
-                "units": "tablespoon"
+                "units": "tablespoons"
             }
         }, {
             "name": "Coated Sliced Meat",

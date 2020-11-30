@@ -1,7 +1,7 @@
 import React from "react";
 import './sidebar.scss'
 import Ingredients from "./Ingredients";
-import Button from "../../components/Button";
+import Button from "../../components/Button/Button";
 import {arrayOf, number, shape, string} from "prop-types";
 import {StepShape} from "../../PropTypeShapes";
 

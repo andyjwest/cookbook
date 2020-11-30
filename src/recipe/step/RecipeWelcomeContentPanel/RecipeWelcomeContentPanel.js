@@ -8,7 +8,7 @@ export const RecipeWelcomeContentPanel = (props) => <div className='recipe-welco
     <div className='content'>
         {(props.description || props.titleImage) && <div>
             {props.titleImage && <img alt={props.title} src={props.titleImage} style={{width: 400, height: 300}}/>}
-            {props.description && <div>{props.description}</div>}
+            {props.description && <div className='description'>{props.description}</div>}
         </div>}
         <Ingredients
             ingredients={props.steps

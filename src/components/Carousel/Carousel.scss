@@ -1,0 +1,27 @@
+.carousel {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.sidebar {
+  overflow-y: auto;
+}
+
+.not-sidebar {
+
+}
+
+ol li {
+  list-style: none;
+
+  li {
+    scroll-snap-align: start;
+    margin-bottom: 10px;
+    .prior {
+      max-height: 10vh;
+      overflow: hidden;
+    }
+  }
+}
