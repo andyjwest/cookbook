@@ -1,10 +1,14 @@
 import React from 'react';
-import Step from "../recipe/sidebar/Step";
-
+import Step from "./Step";
 
 export default {
   title: 'Create/Step',
   component: Step,
 };
 
-export const Default = () => <Step />;
+const Template = args => <Step {...args} />
+
+export const Primary = Template.bind({})
+Primary.args = {
+
+}

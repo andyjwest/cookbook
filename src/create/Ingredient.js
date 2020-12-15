@@ -1,34 +1,32 @@
-import React, {useState} from 'react'
+import React from 'react'
 import LabeledInput from './LabeledInput'
-import {IngredientShape, StepShape} from "../PropTypeShapes";
+import {IngredientShape} from "../PropTypeShapes";
 import LabeledField from "./LabeledField";
-import {number, shape, string} from "prop-types";
+import unitTypes from "../unitTypes";
 
 export default function Ingredient({name, amount, madeInStep, preparation, onChange}) {
 
-    // const [tempName, setName] = useState(name)
-    // const [tempAmount, setAmount] = useState(amount)
-    // const [tempMadeInStep, setMadeInStep] = useState(madeInStep)
-    // const [tempPreparation, setPreparation] = useState(preparation)
+    const setName = (e) => onChange({name: e.target.value, amount, madeInStep, preparation})
+    const setAmount = (e) => onChange({name, amount, madeInStep, preparation})
+    const setMadeInStep = (e) => onChange({name, amount, madeInStep: e.target.value, preparation})
+    const setPreparation = (e) => onChange({name, amount, madeInStep, preparation: e.target.value})
 
-    const setName = (e) => {
-       onChange()
-    }
 
     return <li>
-        <LabeledInput label='Name' inputType='text' onChange={setName}/>
+        <h3>{name}</h3>
+        <LabeledInput label='Name' inputType='text' value={name} onChange={setName}/>
         <h4>Amount</h4>
-
         <LabeledInput label='value' inputType='number' onChange={(e)=> {
         }}/>
         <LabeledField label='Units'>
-            <select>
-
+            <select onChange={()=> {}}>
+                {unitTypes.sort().map(it => <option>{it}</option>)}
             </select>
         </LabeledField>
-        units: string
-
     </li>
 }
 
-Ingredient.propTypes = IngredientShape
+Ingredient.propTypes = {
+    ...IngredientShape,
+
+}

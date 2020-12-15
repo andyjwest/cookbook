@@ -19,32 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a9cc447-0f41-47df-a12d-7f41e5d0876d" name="Default Changelist" comment="Adding a bunch of stuff">
-      <change afterPath="$PROJECT_DIR$/.storybook/preview-head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RandomUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/Ingredient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/Recipe.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/Step.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/Step.stories.js" afterDir="false" />
+    <list default="true" id="3a9cc447-0f41-47df-a12d-7f41e5d0876d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/unitTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/CreateIngredient.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/CreateRecipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Recipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/CreateRecipe.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Ingredient.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/CreateStep.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/Recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/RecipeWizard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/Recipe.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/Recipe.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/recipe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/recipe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/sidebar/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/step/RecipeWelcomeContentPanel/RecipeWelcomeContentPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/step/RecipeWelcomeContentPanel/RecipeWelcomeContentPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create/Ingredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Ingredient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create/Recipe.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Recipe.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create/Step.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Step.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create/Step.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Step.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,18 +95,7 @@
       <recent name="$PROJECT_DIR$/src/recipe" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.storybook">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -199,6 +171,9 @@
       <workItem from="1596626241348" duration="596000" />
       <workItem from="1600424988092" duration="630000" />
       <workItem from="1606737948798" duration="15648000" />
+      <workItem from="1607455646067" duration="5249000" />
+      <workItem from="1607543270209" duration="575000" />
+      <workItem from="1607957657912" duration="4795000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDE">
       <created>1576870722954</created>
@@ -291,23 +266,5 @@
     <MESSAGE value="Redesigning the whole thing" />
     <MESSAGE value="Simple layout" />
     <option name="LAST_COMMIT_MESSAGE" value="Simple layout" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1201" height="258" key="GridCell.Tab.0.bottom" timestamp="1606748118315">
-      <screen x="3840" y="366" width="2560" height="1440" />
-    </state>
-    <state width="1201" height="258" key="GridCell.Tab.0.bottom/3840.366.2560.1440/0.393.3840.1767@3840.366.2560.1440" timestamp="1606748118315" />
-    <state width="1201" height="258" key="GridCell.Tab.0.center" timestamp="1606748118315">
-      <screen x="3840" y="366" width="2560" height="1440" />
-    </state>
-    <state width="1201" height="258" key="GridCell.Tab.0.center/3840.366.2560.1440/0.393.3840.1767@3840.366.2560.1440" timestamp="1606748118315" />
-    <state width="1201" height="258" key="GridCell.Tab.0.left" timestamp="1606748118314">
-      <screen x="3840" y="366" width="2560" height="1440" />
-    </state>
-    <state width="1201" height="258" key="GridCell.Tab.0.left/3840.366.2560.1440/0.393.3840.1767@3840.366.2560.1440" timestamp="1606748118314" />
-    <state width="1201" height="258" key="GridCell.Tab.0.right" timestamp="1606748118315">
-      <screen x="3840" y="366" width="2560" height="1440" />
-    </state>
-    <state width="1201" height="258" key="GridCell.Tab.0.right/3840.366.2560.1440/0.393.3840.1767@3840.366.2560.1440" timestamp="1606748118315" />
   </component>
 </project>

@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import LabeledInput from './LabeledInput'
 import {StepShape} from "../PropTypeShapes";
 import LabeledField from "./LabeledField";
-import {number, shape, string} from "prop-types";
 import Ingredient from "./Ingredient";
 
 export default function Step(

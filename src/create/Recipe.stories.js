@@ -7,4 +7,9 @@ export default {
   component: Recipe,
 };
 
-export const Page = () => <Recipe />;
+const Template = args => <Recipe {...args} />
+
+export const Primary = Template.bind({})
+Primary.args = {
+
+}
