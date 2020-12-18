@@ -23,7 +23,7 @@ export const TemperatureShape = {
         value: number,
         lowerBound: number,
         upperBound: number,
-        units: string.isRequired
+        units: oneOf(['celsius', 'fahrenheit']).isRequired
     }
 
 export const StepShape = {

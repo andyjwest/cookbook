@@ -1,25 +1,17 @@
 @import "my-colors";
 
 .step {
-  font-size: 20px;
+  //font-size: 20px;
   padding: 10px 10px;
   color: $color5;
-
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  width: 100%;
-
-  > div:first-of-type {
-    display: flex;
-    flex-wrap: wrap;
-    > div{
-      margin: 0 10px
+  @media (min-width: 750px) {
+    display: grid;
+    grid-template-columns: 250px 500px;
+    > h1, h2, h3, h4, h5 {
+      grid-column-start: 1;
+      grid-column-end: 3;
     }
   }
 
-}
-
-h2, h3 {
-  margin: .25em 0;
+  width: 100%;
 }

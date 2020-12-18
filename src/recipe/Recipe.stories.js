@@ -1,12 +1,18 @@
 import React from 'react'
 import RecipeWizard from './RecipeWizard'
 import {MemoryRouter} from "react-router-dom";
-import {RecipeWelcomeContentPanel} from "./step/RecipeWelcomeContentPanel/RecipeWelcomeContentPanel";
+import Recipe from "./Recipe";
+import recipes from '../recipes.js'
 
 export default {
-    title: 'Recipe',
+    title: 'Create/Page',
     component: RecipeWizard,
 }
+
+const Template = args => <Recipe {...args} />
+
+export const Primary = Template.bind({})
+Primary.args = recipes[0]
 
 export const StepOneRoute = ()=> <MemoryRouter initialEntries={['/recipes/key-lime-pie/steps/0']}>
     <RecipeWizard

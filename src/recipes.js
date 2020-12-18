@@ -1,4 +1,6 @@
-[
+import {number, string} from "prop-types";
+
+export default [
   {
     "title": "Key Lime Pie",
     "id": "key-lime-pie",
@@ -10,30 +12,33 @@
         "equipment": [
           "Oven"
         ],
-        "temperature": 350,
-        "description": "Preheat the oven to 350 degrees F."
+        "temperature": {
+          value: 180,
+          units: 'celsius'
+        },
+        "description": "Preheat the oven to 180C (350F)."
       },
       {
         "ingredients": [
           {
             "name": "graham crackers",
             "amount": {
-              "value": 0.3333,
-              "units": "1-pound box"
+              "value": 150,
+              "units": "grams"
             }
           },
           {
             "name": "melted butter",
             "amount": {
-              "value": 5,
-              "units": "tablespoons"
+              "value": 71,
+              "units": "grams"
             }
           },
           {
             "name": "sugar",
             "amount": {
-              "value": 0.3333,
-              "units": "cups"
+              "value": 67,
+              "units": "grams"
             }
           }
         ],
@@ -78,8 +83,8 @@
           {
             "name": "lime zest",
             "amount": {
-              "value": 2,
-              "units": "teaspoons"
+              "value": 4,
+              "units": "grams"
             }
           }
         ],
@@ -104,8 +109,8 @@
           {
             "name": "sweetened condensed milk",
             "amount": {
-              "value": 14,
-              "units": "ounces"
+              "value": 397,
+              "units": "grams"
             }
           }
         ],
@@ -166,15 +171,15 @@
           {
             "name": "heavy whipping cream",
             "amount": {
-              "value": 1,
-              "units": "cup"
+              "value": 238,
+              "units": "grams"
             }
           },
           {
             "name": "confectioners' sugar",
             "amount": {
-              "value": 2,
-              "units": "tablespoons"
+              "value": 16,
+              "units": "grams"
             }
           }
         ],

@@ -1,13 +1,13 @@
 import React from 'react';
-import Recipe from "./Recipe";
+import Create from "./Create";
 
 
 export default {
-  title: 'Create/Recipe',
-  component: Recipe,
+  title: 'Create/Create',
+  component: Create,
 };
 
-const Template = args => <Recipe {...args} />
+const Template = args => <Create {...args} />
 
 export const Primary = Template.bind({})
 Primary.args = {

@@ -3,22 +3,21 @@ import './step.scss';
 import MetadataBar from './MetadataBar'
 import {StepShape} from "../../../PropTypeShapes";
 import IngredientList from "../../IngredientList";
-import Header from "./Header";
-import TextWithHeader from "../../../components/TextAreaWithHeader/TextWithHeader";
+import {number} from "prop-types";
 
-export default function Step({title, equipment, temperature, description, ingredients, time, priorStepRequired}) {
+export default function Step({title, equipment, temperature, description, ingredients, time, priorStepRequired, index}) {
 
     return (
         <div className='step'>
-            <div>
-                {!!ingredients && <TextWithHeader header='Ingredients'>
-                    <IngredientList ingredients={ingredients} />
-                </TextWithHeader>}
-                <TextWithHeader header='Description'>{description}</TextWithHeader>
-            </div>
-            {(!!temperature || !!time || !!equipment) && <MetadataBar temperature={temperature} equipment={equipment} time={time}/>}
+            <h3>Step {index+1}{title && `: ${title}`}</h3>
+            <div className='ingredients'>{!!ingredients && <IngredientList ingredients={ingredients} />}</div>
+            <div className='description'>{description.split('.').map(it => <p>{it}</p>)}</div>
+            <MetadataBar equipment={equipment} temperature={temperature} time={time} />
         </div>
     );
 }
 
-Step.propTypes = StepShape
+Step.propTypes = {
+    ...StepShape,
+    index: number.isRequired
+}

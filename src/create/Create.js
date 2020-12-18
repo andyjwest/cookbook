@@ -3,16 +3,18 @@ import LabeledInput from './LabeledInput'
 import Step from './Step'
 import LabeledField from "./LabeledField";
 
-export default function Recipe(){
+export default function Create(){
   const [title, setTitle] = useState('')
   const [id, setId] = useState('')
   const [description, setDescription] = useState('')
   const [steps, setSteps] = useState([])
+  const [source, setSource] = useState('')
 
   return <div>
     <h1>Recipe</h1>
     <LabeledInput label='Title' inputType='text' changeHandler={setTitle} value={title}/>
     <LabeledInput label='ID' inputType='text' changeHandler={setId} value={id}/>
+    <LabeledInput label='Source' inputType='text' changeHandler={setSource} value={source}/>
     <LabeledField label='Description'>
       <textarea onChange={e => setDescription(e.target.value)}>{description}</textarea>
     </LabeledField>

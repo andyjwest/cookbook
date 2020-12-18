@@ -3,6 +3,7 @@ import {useParams} from "react-router-dom";
 import RecipeWizard from "./RecipeWizard";
 import {RecipeShape} from "../PropTypeShapes";
 import {shape} from "prop-types";
+import Recipe from "./Recipe";
 
 export default function RecipeContainer() {
     const {recipeId} = useParams()
@@ -32,7 +33,7 @@ export default function RecipeContainer() {
     }, [])
 
     return <div>
-        {Object.keys(recipe).length > 0  && steps.length > 0 ? <RecipeWizard {...recipe} steps={steps}/> : <div>Loading Coming</div>}
+        {Object.keys(recipe).length > 0  && steps.length > 0 ? <Recipe {...recipe} steps={steps}/> : <div>Loading Coming</div>}
     </div>
 }
 

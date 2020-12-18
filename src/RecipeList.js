@@ -10,7 +10,9 @@ export default function RecipeList(){
     let url = new URL(`${process.env.REACT_APP_API_URL}/recipes`)
     search && url.searchParams.append('search', search);
 
-    fetch(url)
+    console.log(url)
+
+    fetch(url.href)
       .then(r => r.json())
       .then((result => {
         setAllRecipes(result)

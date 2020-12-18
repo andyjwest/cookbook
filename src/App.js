@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 import RecipeCard from './recipe-card/RecipeCard';
 import RecipeContainer from './recipe/RecipeContainer';
-import Recipe from './create/Recipe'
+import Create from './create/Create'
 import RecipeList from './RecipeList'
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
               <RecipeContainer/>
             </Route>
             <Route path='/create'>
-              <Recipe />
+              <Create />
             </Route>
             <Route exact path='/recipes'>
               <RecipeList />
