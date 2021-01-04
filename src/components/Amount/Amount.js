@@ -22,9 +22,9 @@ export default function Amount({value, units, longform}){
   }
 
   if(longform){
-    return <div className='amount'>{value} {units}</div>
+    return <span className='amount'>{value} {units}</span>
   }
-  return <div className='amount'>{value} {typeof unitAbbreviations[units] !== 'undefined' ? unitAbbreviations[units] : units}</div>
+  return <span className='amount'>{value} {typeof unitAbbreviations[units] !== 'undefined' ? unitAbbreviations[units] : units}</span>
 }
 
 Amount.propTypes ={

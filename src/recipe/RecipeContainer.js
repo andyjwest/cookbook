@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
-import RecipeWizard from "./RecipeWizard";
 import {RecipeShape} from "../PropTypeShapes";
 import {shape} from "prop-types";
 import Recipe from "./Recipe";

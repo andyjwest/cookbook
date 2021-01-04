@@ -3,7 +3,7 @@ import {string} from "prop-types"
 import './title.scss'
 
 export default function Title({title, titleImage, time}) {
-    return <ul>
+    return <ul className='title'>
         <li><h1>{title}</h1>}</li>
         <li><a>All Ingredients</a></li>
     </ul>

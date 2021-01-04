@@ -1,7 +1,6 @@
 @import "my-colors";
 
 .step {
-  //font-size: 20px;
   padding: 10px 10px;
   color: $color5;
   @media (min-width: 750px) {
@@ -12,6 +11,5 @@
       grid-column-end: 3;
     }
   }
-
   width: 100%;
 }

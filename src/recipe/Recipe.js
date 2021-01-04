@@ -1,9 +1,8 @@
 import React from "react";
 import {RecipeShape} from "../PropTypeShapes";
-import Ingredients from "./sidebar/Ingredients";
-import './recipe.scss'
 import EquipmentList from "./step/Step/EquipmentList";
 import Step from "./step/Step/Step";
+import IngredientList from "./IngredientList";
 
 const Recipe = ({title, id, description, source, yields, steps, titleImage}) => {
 
@@ -15,19 +14,19 @@ const Recipe = ({title, id, description, source, yields, steps, titleImage}) => 
             <h1>{title}</h1>
             {yields && <div style={{marginTop: '1em'}}>Yields: {yields}</div>}
         </div>
-        <div style={{display: 'flex', flexWrap: 'wrap'}}>
-            {titleImage && <img alt={title} src={titleImage} style={{maxWidth: '100%', maxHeight: '100%'}}/>}
-            <div style={{padding: '1em'}}>
-                {description && <p>{description}</p>}
+        <div className='w3-container'>
+            {titleImage && <div className='w3-half'>
+                <img alt={title} src={titleImage} className='w3-round' style={{maxWidth: '100%', maxHeight: '100%'}}/>
                 {equipment && <p><strong>Equipment</strong>: <EquipmentList equipment={equipment}/></p>}
+            </div>}
+            <div className='w3-container w3-half'>
+                {description && <p className='w3-large'>{description}</p>}
                 <a href={source}>Link to Source</a>
-                <Ingredients ingredients={steps.flatMap(step => step.ingredients)
+                <IngredientList ingredients={steps.flatMap(step => step.ingredients)
                     .filter(it => typeof it !== 'undefined' && typeof it.madeInStep === 'undefined')}/>
             </div>
         </div>
-        <div>
-            {steps.map((it, index) => <Step {...it} index={index}/>)}
-        </div>
+        {steps.map((it, index) => <Step {...it} index={index}/>)}
     </div>
 }
 
