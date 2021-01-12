@@ -20,38 +20,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a9cc447-0f41-47df-a12d-7f41e5d0876d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/tag/Tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tag/Tag.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/tag/tag.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/128x128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bread.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fetchRecipeById.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw-build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sw-template.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/preview-head.html" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/preview-head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cookbook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cookbook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Amount/Amount.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Amount/Amount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Amount/Amount.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Amount/Amount.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tag/Tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/Tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/IngredientList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/IngredientList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/Recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/Recipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/Recipe.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/Recipe.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/RecipeWizard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/ingredient-list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/ingredient-list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/Ingredients.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/Sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/Sidebar.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/SidebarStep.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/Step.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/sidebar-step.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/sidebar/sidebar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/step/RecipeWelcomeContentPanel/RecipeWelcomeContentPanel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/step/RecipeWelcomeContentPanel/RecipeWelcomeContentPanel.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/step/RecipeWelcomeContentPanel/recipe-welcome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/step/Step/MetadataBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/step/Step/MetadataBar.stories.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/step/Step/Step.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/step/Step/Step.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/step/Step/metadata-bar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/step/Step/step.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/step/Step/step.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/title/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/title/Title.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/title/title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/title/title.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +58,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
@@ -86,7 +82,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/create" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.bashrc" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -100,27 +96,40 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/Button" />
-      <recent name="$PROJECT_DIR$/src/components/TextAreaWithHeader" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/Amount" />
-      <recent name="$PROJECT_DIR$/src/recipe/step/ActiveStep" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/create" />
       <recent name="$PROJECT_DIR$/src/components/Carousel" />
       <recent name="$PROJECT_DIR$/src/components/TextAreaWithHeader" />
       <recent name="$PROJECT_DIR$/src/components/FlexFooter" />
-      <recent name="$PROJECT_DIR$/src/recipe" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/components/Button" />
+      <recent name="$PROJECT_DIR$/src/components/TextAreaWithHeader" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/Amount" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.build and serve">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build and serve" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="local" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -147,6 +156,7 @@
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="npm.npm start" />
+      <item itemvalue="npm.build and serve" />
       <item itemvalue="npm.storybook" />
     </list>
   </component>
@@ -200,7 +210,12 @@
       <workItem from="1607957657912" duration="4795000" />
       <workItem from="1608044575352" duration="6226000" />
       <workItem from="1608299848721" duration="11685000" />
-      <workItem from="1609764763624" duration="7706000" />
+      <workItem from="1609764763624" duration="11306000" />
+      <workItem from="1609786193640" duration="13009000" />
+      <workItem from="1609878339813" duration="3571000" />
+      <workItem from="1609941991774" duration="3465000" />
+      <workItem from="1609949573937" duration="5772000" />
+      <workItem from="1610112751949" duration="7829000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDE">
       <created>1576870722954</created>
@@ -265,11 +280,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591026498746</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="stuff">
+      <created>1609777733847</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609777733847</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".bashrc" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -292,18 +317,7 @@
     <MESSAGE value="Adding a bunch of stuff" />
     <MESSAGE value="Redesigning the whole thing" />
     <MESSAGE value="Simple layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simple layout" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/serviceWorker.js</url>
-          <line>58</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
   </component>
 </project>

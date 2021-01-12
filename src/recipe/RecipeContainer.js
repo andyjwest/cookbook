@@ -3,6 +3,7 @@ import {useParams} from "react-router-dom";
 import {RecipeShape} from "../PropTypeShapes";
 import {shape} from "prop-types";
 import Recipe from "./Recipe";
+import {fetchRecipeById, fetchSteps} from "../fetchRecipeById";
 
 export default function RecipeContainer() {
     const {recipeId} = useParams()
@@ -10,25 +11,11 @@ export default function RecipeContainer() {
     const [steps, setSteps] = useState([])
 
     useEffect(() => {
-        fetch(`${process.env.REACT_APP_API_URL}/recipes/${recipeId}`)
-            .then(r => r.json())
-            .then((result => {
-                setRecipe(result)
-            }), error => {
-                console.log(error)
-            })
-        setRecipe({})
+        fetchRecipeById(recipeId).then(data => setRecipe(data));
     }, [])
 
     useEffect(() => {
-        fetch(`${process.env.REACT_APP_API_URL}/recipes/${recipeId}/steps`)
-            .then(r => r.json())
-            .then((result => {
-                setSteps(result)
-            }), error => {
-                console.log(error)
-            })
-        return setRecipe({})
+        fetchSteps(recipeId).then(it => setSteps(it))
     }, [])
 
     return <div>

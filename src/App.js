@@ -7,7 +7,6 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import RecipeCard from './recipe-card/RecipeCard';
 import RecipeContainer from './recipe/RecipeContainer';
 import Create from './create/Create'
 import RecipeList from './RecipeList'

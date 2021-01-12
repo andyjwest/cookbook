@@ -26,7 +26,7 @@ const Recipe = ({title, id, description, source, yields, steps, titleImage}) => 
                     .filter(it => typeof it !== 'undefined' && typeof it.madeInStep === 'undefined')}/>
             </div>
         </div>
-        {steps.map((it, index) => <Step {...it} index={index}/>)}
+        {steps.map((it, index) => <Step {...it} index={index} key={index}/>)}
     </div>
 }
 

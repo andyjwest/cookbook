@@ -19,12 +19,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && yarn build-sw",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "svgr": "svgr -d src/icons/ assets/"
+    "svgr": "svgr -d src/icons/ assets/",
+    "build-sw": "node ./src/sw-build.js",
+    "local": "react-scripts build && serve -s build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,6 +51,7 @@
     "@storybook/react": "^6.1.9",
     "@svgr/cli": "^5.4.0",
     "mini-css-extract-plugin": "^0.9.0",
-    "react-router-dom": "^5.1.2"
+    "react-router-dom": "^5.1.2",
+    "workbox-build": "^6.0.2"
   }
 }

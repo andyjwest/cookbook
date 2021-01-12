@@ -19,9 +19,9 @@ export default function Step({title, equipment, temperature, description, ingred
                 <div className='w3-col w3-right' style={{width: '150px'}}>
                     <Tag color='grey'>{time && <Amount value={time.value} units={time.units}/>}</Tag>
                     <Tag color='red'>{temperature && <Amount value={temperature.value} units={temperature.units}/>}</Tag>
-                    <Tag color='blue'>{equipment && <EquipmentList equipment={equipment} />}</Tag>
+                    {equipment && equipment.map(it => <Tag color='blue'>{it}</Tag>)}
                 </div>
-                <div className='w3-rest'>{description.split('.').map(it => <p>{it}</p>)}</div>
+                <div className='w3-rest'>{description.split('.').map((it, index) => <p key={index}>{it}</p>)}</div>
             </div>
         </div>
     );
