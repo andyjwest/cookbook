@@ -1,6 +1,8 @@
 import {string, number, shape, arrayOf, oneOf, oneOfType, bool} from "prop-types";
 
 export const HeatStringTypes = ["High", "Medium-High", "Medium", "Medium-Low", "Low"]
+export const TimeUnitTypes = ["Seconds", "Minutes", "Hours", "Days"]
+export const TempUnitTypes = ['celsius', 'fahrenheit']
 
 export const IngredientShape = {
     name: string.isRequired,
@@ -16,14 +18,14 @@ export const TimeShape = {
     value: number,
     lowerBound: number,
     upperBound: number,
-    units: string.isRequired
+    units: oneOf(TimeUnitTypes).isRequired
 }
 
 export const TemperatureShape = {
         value: number,
         lowerBound: number,
         upperBound: number,
-        units: oneOf(['celsius', 'fahrenheit']).isRequired
+        units: oneOf(TempUnitTypes).isRequired
     }
 
 export const StepShape = {

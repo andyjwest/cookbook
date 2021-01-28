@@ -14,6 +14,7 @@ const Recipe = ({title, id, description, source, yields, steps, titleImage}) => 
             <h1>{title}</h1>
             {yields && <div style={{marginTop: '1em'}}>Yields: {yields}</div>}
         </div>
+        {/*<button onClick={}></button>*/}
         <div className='w3-container'>
             {titleImage && <div className='w3-half'>
                 <img alt={title} src={titleImage} className='w3-round' style={{maxWidth: '100%', maxHeight: '100%'}}/>

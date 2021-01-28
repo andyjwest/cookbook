@@ -1,28 +1,35 @@
 import React from 'react'
-import LabeledInput from './LabeledInput'
 import {IngredientShape} from "../PropTypeShapes";
-import LabeledField from "./LabeledField";
 import unitTypes from "../unitTypes";
+import {FormControl, InputLabel, MenuItem, Select, TextField} from "@material-ui/core";
 
-export default function Ingredient({name, amount, madeInStep, preparation, onChange}) {
+export default function Ingredient({name, amount, madeInStep, preparation, onChange, index}) {
 
-    const setName = (e) => onChange({name: e.target.value, amount, madeInStep, preparation})
-    const setAmount = (e) => onChange({name, amount, madeInStep, preparation})
-    const setMadeInStep = (e) => onChange({name, amount, madeInStep: e.target.value, preparation})
-    const setPreparation = (e) => onChange({name, amount, madeInStep, preparation: e.target.value})
-
+    const handleAmountChange = field => event => {
+        let fakeEvent = {target: {value: {...amount}}}
+        fakeEvent.target.value[field] = event.target.value
+        onChange('amount')(fakeEvent)
+    }
 
     return <li>
-        <h3>{name}</h3>
-        <LabeledInput label='Name' inputType='text' value={name} onChange={setName}/>
-        <h4>Amount</h4>
-        <LabeledInput label='value' inputType='number' onChange={(e)=> {
-        }}/>
-        <LabeledField label='Units'>
-            <select onChange={()=> {}}>
-                {unitTypes.sort().map(it => <option>{it}</option>)}
-            </select>
-        </LabeledField>
+        <TextField label='Name' variant='outlined' value={name}
+                   onChange={onChange('name')}/>
+        <TextField label='Amount' variant='outlined' value={name}
+                   onChange={handleAmountChange('value')}/>
+        <FormControl variant="outlined">
+            <InputLabel id={`step-${index}-time-unit-label`}>Units</InputLabel>
+            <Select
+                labelId={`step-${index}-time-unit-label`}
+                id={`step-${index}-time-units`}
+                value={amount && amount.units}
+                onChange={handleAmountChange('units')}
+            >
+                <MenuItem value="">
+                    <em>None</em>
+                </MenuItem>
+                {unitTypes.map(type => <MenuItem key={type} value={type}>{type}</MenuItem>)}
+            </Select>
+        </FormControl>
     </li>
 }
 
