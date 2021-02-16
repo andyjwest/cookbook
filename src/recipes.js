@@ -509,7 +509,7 @@ export default [
             "name": "Canola Oil",
             "amount": {
               "value": 1,
-              "units": "tablespoon"
+              "units": "tablespoons"
             }
           },{
             "name": "Coated Sliced Meat",
@@ -645,6 +645,115 @@ export default [
             "preparation": "chopped"
           }
         ]
+      }
+    ]
+  },
+  {
+    "title": "Almond Cake",
+    "id": "almond-cake",
+    "description": "A nice nutty base.",
+    "yields": "1 cake",
+    "steps": [
+      {
+        "equipment": [
+          "Oven"
+        ],
+        "temperature": 350,
+        "description": "Preheat the oven to 350F."
+      },
+      {
+        "equipment": [
+          "8 inch Cake Pan"
+        ],
+        "description": "Butter and flour or line an 8 inch cake pan."
+      },
+      {
+        "title": "Make the egg yolk mixture",
+        "ingredients": [
+          {
+            "name": "Eggs",
+            "amount": {
+              "value": 65,
+              "units": "grams"
+            }
+          },
+          {
+            "name": "Egg Yolks",
+            "amount": {
+              "value": 40,
+              "units": "grams"
+            }
+          },
+          {
+            "name": "Confectioners' Sugar",
+            "amount": {
+              "value": 75,
+              "units": "grams"
+            }
+          },
+          {
+            "name": "Almond Flour",
+            "amount": {
+              "value": 75,
+              "units": "grams"
+            }
+          }
+        ],
+        "equipment": [
+          "Stand Mixer", "Stand Mixer Whisk"
+        ],
+        "time": {
+          "upperBound": 5,
+          "lowerBound": 3,
+          "units": 'minutes'
+        },
+        "description": "Whisk eggs, egg yolks, confectioners' sugar, and almond flour until doubled in volume, about 3 to 5 minutes."
+      },
+      {
+        "title": "Make the meringue",
+        "ingredients": [
+          {
+            "name": "Egg Whites",
+            "amount": {
+              "value":135,
+              "units": "grams"
+            }
+          },
+          {
+            "name": "Granulated Sugar",
+            "amount": {
+              "value":50,
+              "units": "grams"
+            }
+          }
+        ],
+        "description": "Whip eggs whites on medium-high speed in clean stand mixer until bubbles start to form. Slowly add the sugar and mix until the meringue is shiny and holds medium-stiff peaks.",
+        "time": {
+          "upperBound": 7,
+          "lowerBound": 5,
+          "units": 'minutes'
+        }
+      },
+      {
+        "Title": "Make the Batter",
+        "ingredients": [
+          {
+            "name": "All-Purpose Flour",
+            "amount": {
+              "value": 60,
+              "units": "grams"
+            }
+          }
+        ],
+        "description": "Gently fold one quarter of the meringue into the egg yolk mixture until fully combined. Add the remaining meringue and gently fold just to combine. Add AP flour and gently fold until fully incorporated. Pour into prepared pan."
+      },
+      {
+        "title": "Bake the cake",
+        "description": "Bake until the cake is lightly golden brown; about 25 minutes",
+        "time": {
+          "value": 25,
+          "units": "minutes"
+        }
       }
     ]
   }

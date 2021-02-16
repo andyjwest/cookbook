@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import {RecipeShape} from "../PropTypeShapes";
 import EquipmentList from "./step/Step/EquipmentList";
 import Step from "./step/Step/Step";

@@ -20,25 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a9cc447-0f41-47df-a12d-7f41e5d0876d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/create/temp/Temperature.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/temp/Temperature.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/time/Time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/create/time/Time.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.stories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recipe/SmartDescription/SmartDescription.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PropTypeShapes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PropTypeShapes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RecipeList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecipeList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/create/Create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Create.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/Ingredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Ingredient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/Step.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Step.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/Step.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Step.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe-card/RecipeCard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe-card/recipe-card.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/Recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/Recipe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +70,8 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/create" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210216_0001" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/recipe/SimpleView" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -103,18 +93,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\My Documents\Insight\cookbook\src\recipe\SimpleView" />
       <recent name="$PROJECT_DIR$/src/create" />
       <recent name="$PROJECT_DIR$/src/create/time" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/Carousel" />
-      <recent name="$PROJECT_DIR$/src/components/TextAreaWithHeader" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\My Documents\Insight\cookbook\src\recipe\SimpleView" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/Button" />
       <recent name="$PROJECT_DIR$/src/components/TextAreaWithHeader" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/Amount" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -232,6 +222,7 @@
       <workItem from="1611669885365" duration="8477000" />
       <workItem from="1611754840537" duration="16262000" />
       <workItem from="1611840954919" duration="5313000" />
+      <workItem from="1613484602643" duration="7485000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDE">
       <created>1576870722954</created>

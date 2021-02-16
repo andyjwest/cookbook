@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Step from './Step'
 import {Button, FormControl, Input, InputLabel, makeStyles, OutlinedInput, Paper, TextField} from '@material-ui/core';
 
@@ -21,7 +21,7 @@ export const useStyles = makeStyles((theme) => ({
 export default function Create() {
 
     const classes = useStyles();
-    const [values, setValues] = React.useState({
+    const [values, setValues] = useState({
         title: '',
         id: '',
         description: '',
@@ -30,6 +30,8 @@ export default function Create() {
         yield: '',
         titleImage: ''
     });
+    const [successfulSave, setSuccessfulSave] = useState(false)
+    const [error, setError] = useState()
 
     const handleChange = (prop) => (event) => {
         setValues({...values, [prop]: event.target.value});
@@ -52,7 +54,11 @@ export default function Create() {
     }
 
     const handleSubmit = e => {
-        console.log(e)
+        console.log(values)
+        fetch(`${process.env.REACT_APP_API_URL}/recipes`, {
+            method: 'POST',
+            body: values
+        }).then(response => setSuccessfulSave(true)).catch(e => setError(e))
     }
 
     return <Paper className={classes.root}>
