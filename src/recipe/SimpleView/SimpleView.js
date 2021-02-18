@@ -1,6 +1,5 @@
 import React from "react";
 import IngredientList from "../IngredientList";
-import Title from "../title/Title";
 
 const SimpleView = ({title, steps, titleImage}) => {
     return <div className='w3-container'>
