@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a9cc447-0f41-47df-a12d-7f41e5d0876d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.stories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recipe/SmartDescription/SmartDescription.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/create/Create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Create.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/Recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/Recipe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/title/Title.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/title/Title.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/title/title.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210216_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210217_0002" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/recipe/SimpleView" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -107,7 +105,7 @@
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.storybook">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -222,7 +220,9 @@
       <workItem from="1611669885365" duration="8477000" />
       <workItem from="1611754840537" duration="16262000" />
       <workItem from="1611840954919" duration="5313000" />
-      <workItem from="1613484602643" duration="7485000" />
+      <workItem from="1613484602643" duration="7832000" />
+      <workItem from="1613612556818" duration="84000" />
+      <workItem from="1613612830158" duration="2954000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDE">
       <created>1576870722954</created>
@@ -294,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609777733847</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="switching over to a simple view">
+      <created>1613492796912</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613492796913</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +332,7 @@
     <MESSAGE value="Redesigning the whole thing" />
     <MESSAGE value="Simple layout" />
     <MESSAGE value="stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
+    <MESSAGE value="switching over to a simple view" />
+    <option name="LAST_COMMIT_MESSAGE" value="switching over to a simple view" />
   </component>
 </project>

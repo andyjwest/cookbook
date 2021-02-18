@@ -2,9 +2,7 @@ import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 import {RecipeShape} from "../PropTypeShapes";
 import {shape} from "prop-types";
-import Recipe from "./Recipe";
 import {fetchRecipeById, fetchSteps} from "../fetchRecipeById";
-import {CircularProgress} from "@material-ui/core";
 import SimpleView from "./SimpleView/SimpleView";
 
 export default function RecipeContainer() {
@@ -21,7 +19,7 @@ export default function RecipeContainer() {
     }, [])
 
     return <div>
-        {Object.keys(recipe).length > 0  && steps.length > 0 ? <SimpleView {...recipe} steps={steps}/> : <CircularProgress />}
+        {Object.keys(recipe).length > 0  && steps.length > 0 ? <SimpleView {...recipe} steps={steps}/> : <div>Loading...</div>}
     </div>
 }
 

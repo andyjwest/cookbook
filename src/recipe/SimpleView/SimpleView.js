@@ -1,11 +1,13 @@
 import React from "react";
 import IngredientList from "../IngredientList";
+import Title from "../title/Title";
 
-const SimpleView = ({title, steps}) => {
+const SimpleView = ({title, steps, titleImage}) => {
     return <div className='w3-container'>
-        <h1 style={{width: '100%', textAlign: 'center'}}>{title}</h1>
+        <h1>{title}</h1>
         <div style={{display: "flex", flexWrap: "wrap"}}>
             <div className='w3-container'>
+                <img src={titleImage} style={{maxWidth: '300px'}}/>
                 <IngredientList ingredients={steps.flatMap(step => step.ingredients)
                     .filter(it => typeof it !== 'undefined' && typeof it.madeInStep === 'undefined')}/>
             </div>
