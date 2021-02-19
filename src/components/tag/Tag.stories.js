@@ -13,3 +13,9 @@ export const Primary = Template.bind({})
 Primary.args = {
     children: 'Test'
 }
+
+export const Red = Template.bind({})
+Red.args = {
+    children: 'Test',
+    color: 'red'
+}

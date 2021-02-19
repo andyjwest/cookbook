@@ -6,12 +6,12 @@ const SimpleView = ({title, steps, titleImage}) => {
         <h1>{title}</h1>
         <div style={{display: "flex", flexWrap: "wrap"}}>
             <div className='w3-container'>
-                <img src={titleImage} style={{maxWidth: '300px'}}/>
+                {titleImage && <img src={titleImage} style={{maxWidth: '300px'}} alt={title}/>}
                 <IngredientList ingredients={steps.flatMap(step => step.ingredients)
                     .filter(it => typeof it !== 'undefined' && typeof it.madeInStep === 'undefined')}/>
             </div>
             <div className='w3-container' style={{maxWidth: '500px'}}>
-                {steps.map((it, index) => it.description.split('.').map((it, index) => <p key={index}>{it}</p>))}
+                {steps.map((it, index) => <p key={index}>{it}</p>)}
             </div>
         </div>
     </div>

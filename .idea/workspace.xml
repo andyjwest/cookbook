@@ -21,11 +21,31 @@
   <component name="ChangeListManager">
     <list default="true" id="3a9cc447-0f41-47df-a12d-7f41e5d0876d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/RecipeContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditableField/EditableField.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditableField/EditableField.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditableField/editableField.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlexFooter/FlexFooter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlexFooter/FlexFooter.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlexFooter/flex-footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FloatingContainer/FloatingContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FloatingContainer/FloatingContainer.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FloatingContainer/floatingContainer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextAreaWithHeader/TextWithHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextAreaWithHeader/TextWithHeader.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextAreaWithHeader/text-area-with-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleSlider/ToggleSlider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleSlider/ToggleSlider.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleSlider/toggle-slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tag/Tag.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/Tag.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/Edit/EditTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/Edit/EditTitle.stories.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/title/Title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/title/Title.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/title/title.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/SmartDescription/SmartDescription.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +242,7 @@
       <workItem from="1611840954919" duration="5313000" />
       <workItem from="1613484602643" duration="7832000" />
       <workItem from="1613612556818" duration="84000" />
-      <workItem from="1613612830158" duration="2954000" />
+      <workItem from="1613612830158" duration="14113000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDE">
       <created>1576870722954</created>
@@ -301,7 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613492796913</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="making things simpler">
+      <created>1613618330753</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613618330753</updated>
+    </task>
+    <task id="LOCAL-00013" summary="making things simpler">
+      <created>1613618342490</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613618342490</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,6 +367,7 @@
     <MESSAGE value="Simple layout" />
     <MESSAGE value="stuff" />
     <MESSAGE value="switching over to a simple view" />
-    <option name="LAST_COMMIT_MESSAGE" value="switching over to a simple view" />
+    <MESSAGE value="making things simpler" />
+    <option name="LAST_COMMIT_MESSAGE" value="making things simpler" />
   </component>
 </project>
