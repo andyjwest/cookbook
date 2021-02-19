@@ -20,12 +20,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a9cc447-0f41-47df-a12d-7f41e5d0876d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile.prod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/recipes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditableField/EditableField.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditableField/EditableField.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditableField/editableField.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlexFooter/FlexFooter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlexFooter/FlexFooter.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FlexFooter/flex-footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FloatingContainer/FloatingContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FloatingContainer/FloatingContainer.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FloatingContainer/floatingContainer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextAreaWithHeader/TextWithHeader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextAreaWithHeader/TextWithHeader.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextAreaWithHeader/text-area-with-header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleSlider/ToggleSlider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleSlider/ToggleSlider.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ToggleSlider/toggle-slider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tag/Tag.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/Tag.stories.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/Edit/EditTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/Edit/EditTitle.stories.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recipe/SmartDescription/SmartDescription.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +88,8 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210217_0002" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/recipe/SimpleView" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -90,44 +111,33 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="F:\My Documents\Insight\cookbook\src\recipe\SimpleView" />
       <recent name="$PROJECT_DIR$/src/create" />
       <recent name="$PROJECT_DIR$/src/create/time" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/Carousel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\My Documents\Insight\cookbook\src\recipe\SimpleView" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/Button" />
       <recent name="$PROJECT_DIR$/src/components/TextAreaWithHeader" />
       <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/components/Amount" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Docker Cookbook Frontend">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
-      <method v="2" />
+  <component name="RunManager" selected="npm.storybook">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="Docker Cookbook Frontend" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="imageTag" value="cookbook" />
-          <option name="buildCliOptions" value="" />
-          <option name="command" value="" />
-          <option name="containerName" value="frontend" />
-          <option name="entrypoint" value="" />
-          <option name="portBindings">
-            <list>
-              <DockerPortBindingImpl>
-                <option name="containerPort" value="8080" />
-                <option name="hostPort" value="8080" />
-              </DockerPortBindingImpl>
-            </list>
-          </option>
-          <option name="commandLineOptions" value="" />
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
     <configuration name="build and serve" type="js.build_tools.npm">
@@ -162,7 +172,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Docker.Docker Cookbook Frontend" />
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="npm.npm start" />
       <item itemvalue="npm.build and serve" />
@@ -231,8 +240,9 @@
       <workItem from="1611669885365" duration="8477000" />
       <workItem from="1611754840537" duration="16262000" />
       <workItem from="1611840954919" duration="5313000" />
-      <workItem from="1613575757025" duration="6362000" />
-      <workItem from="1613758294563" duration="1554000" />
+      <workItem from="1613484602643" duration="7832000" />
+      <workItem from="1613612556818" duration="84000" />
+      <workItem from="1613612830158" duration="14113000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDE">
       <created>1576870722954</created>
@@ -304,7 +314,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609777733847</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="switching over to a simple view">
+      <created>1613492796912</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613492796913</updated>
+    </task>
+    <task id="LOCAL-00012" summary="making things simpler">
+      <created>1613618330753</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613618330753</updated>
+    </task>
+    <task id="LOCAL-00013" summary="making things simpler">
+      <created>1613618342490</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613618342490</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +366,8 @@
     <MESSAGE value="Redesigning the whole thing" />
     <MESSAGE value="Simple layout" />
     <MESSAGE value="stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
+    <MESSAGE value="switching over to a simple view" />
+    <MESSAGE value="making things simpler" />
+    <option name="LAST_COMMIT_MESSAGE" value="making things simpler" />
   </component>
 </project>
