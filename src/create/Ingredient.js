@@ -1,7 +1,6 @@
 import React from 'react'
 import {IngredientShape} from "../PropTypeShapes";
 import unitTypes from "../unitTypes";
-import {FormControl, InputLabel, MenuItem, Select, TextField} from "@material-ui/core";
 
 export default function Ingredient({name, amount, madeInStep, preparation, onChange, index}) {
 
@@ -12,24 +11,19 @@ export default function Ingredient({name, amount, madeInStep, preparation, onCha
     }
 
     return <li>
-        <TextField label='Name' variant='outlined' value={name}
+        <input label='Name' variant='outlined' value={name}
                    onChange={onChange('name')}/>
-        <TextField label='Amount' variant='outlined' value={name}
+        <input label='Amount' variant='outlined' value={name}
                    onChange={handleAmountChange('value')}/>
-        <FormControl variant="outlined">
-            <InputLabel id={`step-${index}-time-unit-label`}>Units</InputLabel>
-            <Select
+            <label id={`step-${index}-time-unit-label`}>Units</label>
+            <select
                 labelId={`step-${index}-time-unit-label`}
                 id={`step-${index}-time-units`}
                 value={amount && amount.units}
                 onChange={handleAmountChange('units')}
             >
-                <MenuItem value="">
-                    <em>None</em>
-                </MenuItem>
-                {unitTypes.map(type => <MenuItem key={type} value={type}>{type}</MenuItem>)}
-            </Select>
-        </FormControl>
+                {unitTypes.map(type => <option key={type} value={type}>{type}</option>)}
+            </select>
     </li>
 }
 

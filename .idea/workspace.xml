@@ -21,31 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3a9cc447-0f41-47df-a12d-7f41e5d0876d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditableField/EditableField.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditableField/EditableField.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/EditableField/editableField.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlexFooter/FlexFooter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlexFooter/FlexFooter.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FlexFooter/flex-footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FloatingContainer/FloatingContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FloatingContainer/FloatingContainer.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FloatingContainer/floatingContainer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TextAreaWithHeader/TextWithHeader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TextAreaWithHeader/TextWithHeader.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TextAreaWithHeader/text-area-with-header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleSlider/ToggleSlider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleSlider/ToggleSlider.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ToggleSlider/toggle-slider.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/tag/Tag.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tag/Tag.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/Edit/EditTitle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/Edit/EditTitle.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/recipe/SimpleView/SimpleView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/recipe/SmartDescription/SmartDescription.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RecipeList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecipeList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create/Create.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create/Ingredient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Ingredient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create/Step.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/Step.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create/temp/Temperature.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/temp/Temperature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/create/time/Time.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/create/time/Time.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +57,9 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1VGDGKGxCVA0bnDRDS56wAxStgg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -108,6 +91,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -243,6 +227,7 @@
       <workItem from="1613484602643" duration="7832000" />
       <workItem from="1613612556818" duration="84000" />
       <workItem from="1613612830158" duration="14113000" />
+      <workItem from="1613932674376" duration="805000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDE">
       <created>1576870722954</created>
