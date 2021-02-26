@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^3.1.0",
     "lorem-ipsum": "^2.0.3",
     "moment": "^2.26.0",
     "node-sass": "^4.14.0",
@@ -43,7 +44,6 @@
     ]
   },
   "devDependencies": {
-    "storybook": "^5.3.13",
     "@storybook/addon-actions": "^6.1.9",
     "@storybook/addon-links": "^6.1.9",
     "@storybook/addons": "^6.1.9",
@@ -52,6 +52,7 @@
     "@svgr/cli": "^5.4.0",
     "mini-css-extract-plugin": "^0.9.0",
     "react-router-dom": "^5.1.2",
+    "storybook": "^5.3.13",
     "workbox-build": "^6.0.2"
   }
 }
